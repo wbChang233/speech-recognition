@@ -26,7 +26,7 @@ def main():
     model.eval()
 
     # 设定一个阈值，比如0.5
-    threshold = 0.5
+    threshold = 0.65
 
     predictions_list = []
     with torch.no_grad():
